@@ -25,9 +25,9 @@ export default [
         authorizationCodeUrl: 'https://accounts.google.com/o/oauth2/v2/auth',
         accessTokenUrl: 'https://oauth2.googleapis.com/token',
         redirectUri:
-          isDevMode() ?
-            'http://localhost:4200/google/authorization '
-          : 'https://camt-mmit.github.io/2024-01-954447-001-lab08-09-api-Chinatip-J/google/authorization ',
+          isDevMode()?
+            'http://localhost:4200/google/authorization'
+          : 'https://camt-mmit.github.io/2024-01-954447-001-lab08-09-api-Chinatip-J/google/authorization',
       }),
     ],
     children: [
